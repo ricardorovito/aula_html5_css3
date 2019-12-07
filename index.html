@@ -1,17 +1,22 @@
+<!--Minha primeira página criada, utilizando HTML5 e CSS3-->
 <!DOCTYPE html>
+<!--Indicação do idioma-->
 <html lang="pt-br">
+    <!--Indicação da codifitação, para que acentuação seja respeitada-->
 <head> <meta charset="utf-8"> 
-    
+    <!--Título da minha página, informações que aparecerá na aba do navegador-->
     <title>Minha Página</title>
+    <!--Apontamento para arquivo CSS-->
     <link rel="stylesheet" type="text/css" href="css/style.css"
-
 </head>
-
+<!--Início da body, informações visíveis aos visitantes da página-->
 <body>
 
     <p>Minha primeira página</p>
+    <!--Elemento de navegação, apontamento para a mesma página-->
     <nav>
-            <ul>
+    <!--Lista desordenada-->
+        <ul>
             <li><a href="#servicos">SERVIÇOS</a></li>
             <li><a href="#clientes">CLIENTES</a></li>
             <li><a href="#parceiros">PARCEIROS</a></li>
@@ -20,14 +25,15 @@
 
         </ul>
     </nav>
-
+    
+    <!--Cabeçalho da página, com exemplos da tag h nos tamanhos 1,2 e 3-->
     <header>
         <h1>Minha Página</h1>
         <h2>Minha Página</h2>
         <h3>Minha Página</h3>
         <p>Desenvolvemos os melhores sites e apps para sua empresa</p>
     </header>
-
+    <!--início das seções do site, os apontamentos foram realizados na lista, utilizando os respectivos IDS-->
         <section id = "servicos">
             <h2>SERVIÇOS</h2>
             <p>Oferecemos os melhores serviços de desenvolcimento de sites e aplicativos, exmplo, teste
@@ -48,6 +54,7 @@
                 Oferecemos os melhores serviços de desenvolcimento de sites e aplicativos, exmplo, teste
             </p>
             <div>
+            <!--Utilizando a classe para identificar as imagens padrão dentro do site e trabalhar com CSS-->
             <img src="img/site.jpg" class="img_padrao">
             </div>
                 <div>
@@ -70,6 +77,7 @@
             <h2>PARCEIROS</h2>
             <p>Nossos parceiros</p>
             <div>
+            <!--Utilizando target para abrir uma nova aba no navegador ao clicar na imagem relacionada-->
             <a href="https://digitalinnovation.one/" target="_blank">
                 <img src = "img/parceiros1.jpg" class="img_padrao">
             </a>
@@ -97,14 +105,16 @@
             <p>Estmamos a disposição, por telefone, e-mail, chat e redes sociais</p>
             <div>
             <img src ="img/contato-email.jpg" class="logo">
+            <!--Configuração do e-mail, quando o usuário clicar em contato-->
             <p><a href="mailto:contato@empresa.com.br">contato@empresa.com.br</a></p>
             </div>
             <div>
             <img src ="img/contato-telefone.jpg" class="logo">
+            <!--Utilização da referência, para quando clicar na imagem, direcionar diretamente para fazer uma chamada-->
             <p><a href="tel:1188888888">(11) 8888-8888</a></p>
             </div>
         </section>
-
+<!--Rodapé da página-->
         <footer>
             <p><p>Desenvolvido por: Ricardo Rovito</p>
         </footer>
